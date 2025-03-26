@@ -124,15 +124,56 @@ We’re planning exciting upgrades:
    ```bash
    git clone https://github.com/ewfx/catfe-g-e-n-zai.git
    ```
-2. Install dependencies:  
+
+2. Create a virtual environment:  
+   ```bash
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment:  
+   - On Windows:  
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:  
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. Install dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
-3. Setup Pinecone and Neo4j instances and place in .env file
 
-4. Run Command:
-    ```bash
-   python main.py
+5. Setup Pinecone and Neo4j instances and create a `.env` file in the root directory with the following format:  
+   ```env
+   GOOGLE_API_KEY="your_google_api_key"
+   neo4j_uri="your_neo4j_uri"
+   neo4j_username="your_neo4j_username"
+   neo4j_password="your_neo4j_password"
+   PINECONE_API_KEY="your_pinecone_api_key"
+   PINECONE_ENV="your_pinecone_environment"
+   INDEX_NAME="your_index_name"
+   ```
+
+6. Install node dependencies:  
+   ```bash
+   npm install
+   ```
+
+7. To run the test executor service:  
+   ```bash
+   python test_executor.py
+   ```
+
+8. Run the bdd generator service:  
+   ```bash
+   streamlit run ui.py
+   ```
+
+9. To run the complete generated test suite
+   ```bash
+   python runTestSuite.py
    ```
    
 ---
