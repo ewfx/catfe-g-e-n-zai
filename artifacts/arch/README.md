@@ -89,7 +89,7 @@ Our architecture integrates multiple components for seamless operation:
 - **Playwright**: Executes end-to-end tests.
 - **Graph DB & Vector DB**: Enable scalable data management.
 
-![Knowledge Graph & Vector Embeddings Generation](https://github.com/yash261/KnowledgeGraphForCode/blob/main/Images/Knowledge_Graph_and_Embeddings.png)
+![Knowledge Graph & Vector Embeddings Generation](https://github.com/ewfx/catfe-g-e-n-zai/blob/main/artifacts/arch/Knowledge_Graph_and_Embeddings.png)
 
 
 ### 👷 Workflow
@@ -99,7 +99,7 @@ Our architecture integrates multiple components for seamless operation:
 4. Execute tests and validate results.
 5. Update storage for future adaptability.
 
-![Architectural Workflow](https://github.com/yash261/KnowledgeGraphForCode/blob/main/Images/Workflow_Diagram.png)
+![Architectural Workflow](https://github.com/ewfx/catfe-g-e-n-zai/blob/main/artifacts/arch/Workflow%20Diagram.png)
 
 
 ### ✨ Future Enhancements
@@ -122,7 +122,7 @@ We’re planning exciting upgrades:
 ### 🏃 How to Run
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yash261/KnowledgeGraphForCode/tree/main
+   git clone https://github.com/ewfx/catfe-g-e-n-zai.git
    ```
 2. Install dependencies:  
    ```bash
